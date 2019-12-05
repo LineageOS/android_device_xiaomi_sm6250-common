@@ -81,6 +81,9 @@ vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
+# APK Verity
+ro.apk_verity.mode=2
+
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lc3
 persist.bluetooth.a2dp_offload.disabled=false
