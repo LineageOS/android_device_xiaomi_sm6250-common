@@ -60,6 +60,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/etc/camera/camxoverridesettings.txt)
+            sed -i "s/0x10080/0/g" "${2}"
+            sed -i "s/0x1F/0x0/g" "${2}"
+            ;;
         vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc)
             sed -i "s/4\.0/4\.1/g" "${2}"
             ;;
