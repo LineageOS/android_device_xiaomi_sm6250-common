@@ -61,13 +61,6 @@ on init
     write /dev/stune/top-app/schedtune.prefer_high_cap 1
     write /dev/stune/top-app/schedtune.boost 100
 
-    mkdir /dev/cpuset/camera-daemon
-    write /dev/cpuset/camera-daemon/cpus 0-7
-    write /dev/cpuset/camera-daemon/mems 0
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon
-    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
-    chmod 0660 /dev/cpuset/camera-daemon/tasks
-
 on early-fs
     start vold
 
