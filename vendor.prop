@@ -147,6 +147,9 @@ drm.service.enabled=true
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Incremental FS
+ro.incremental.enable=true
+
 # Graphics
 persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
