@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d510d45_eab17bd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24834
+      },
+      "writtenOn": "2021-12-25T18:56:34Z",
+      "side": 1,
+      "message": "I think you can remove asphere, too. It has been deprecated for quite some time.",
+      "revId": "dd533c32210c057f4c676f6f05b40fa4e108cc1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
