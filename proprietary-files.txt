@@ -67,8 +67,6 @@ vendor/lib/rfsa/adsp/tas25xx_TI_0.bin
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
@@ -395,11 +393,9 @@ vendor/lib64/vendor.qti.latency@2.0.so
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Consumerir
-vendor/lib/hw/consumerir.default.so:vendor/lib/hw/consumerir.atoll.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.atoll.so
 
 # CVP
@@ -492,7 +488,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno)
@@ -724,10 +719,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|2eedb6b2c2e0bcb54d0aae1
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|1cc01cb20909ae1a2f829056b098051d93cb4093
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|f6907552961ba772c1ad5b493913a60d65abedb4
 -vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
-vendor/lib/libkeymasterdeviceutils.so|4b6d0cab5e97e2c1eedf3f229db694b14e0f8b46
-vendor/lib/libkeymasterutils.so|aeb984222fbd7d6881f9915a5ad1a9ab828c862b
-vendor/lib/libqcbor.so|6f90ae6aee92a4a09b34432cb6b95dc1977f4772
-vendor/lib/libqtikeymaster4.so|f96fc62afab4378e8dd84a8b4cb6b3dad16ed0f7
 vendor/lib64/libkeymasterdeviceutils.so|323603c6199f2cb3d15883c625bae7cd1d039f81
 vendor/lib64/libkeymasterutils.so|db21b2fec8e5808c562665746d0394575004070b
 vendor/lib64/libqcbor.so|df6a3f00d7d49e482e0ca2937f5bd708fba32ae6
@@ -812,7 +803,6 @@ system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 # Peripheral
 vendor/bin/pm-proxy
 vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # Postprocessing
@@ -1036,7 +1026,6 @@ vendor/lib64/libthermalclient.so
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
-vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
 # Touchscreen firmware
