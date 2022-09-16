@@ -77,18 +77,11 @@ PRODUCT_PACKAGES += \
     libmegface \
     libpiex_shim
 
-PRODUCT_PACKAGES += \
-    libcamera2ndk_vendor \
-    libdng_sdk.vendor \
-    libgui_vendor \
-    libstdc++.vendor
-
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service
 
 PRODUCT_PACKAGES += \
