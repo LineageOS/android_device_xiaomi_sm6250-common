@@ -234,6 +234,7 @@ vendor/lib64/camera/com.qti.sensormodule.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k5e9.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc02m1.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc8034.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_hi556.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov2180.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin
@@ -244,9 +245,11 @@ vendor/lib64/camera/com.qti.tuned.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_s5k5e9.bin
 vendor/lib64/camera/com.qti.tuned.sunny_gc8034.bin
+vendor/lib64/camera/com.qti.tuned.sunny_hi556.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9.bin
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
