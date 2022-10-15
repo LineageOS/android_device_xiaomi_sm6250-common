@@ -64,7 +64,7 @@ function blob_fixup() {
             sed -i "s/4\.0/4\.1/g" "${2}"
             ;;
         vendor/lib64/camera/components/com.qti.node.watermark.so)
-            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
         system_ext/etc/init/wfdservice.rc)
             sed -i "/^service/! s/wfdservice$/wfdservice64/g" "${2}"
