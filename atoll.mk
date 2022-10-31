@@ -262,6 +262,7 @@ PRODUCT_PACKAGES += \
     WifiOverlay
 
 PRODUCT_PACKAGES += \
+    SM6250Aperture \
     SM6250LineageDialer \
     SM6250LineageSDK
 
