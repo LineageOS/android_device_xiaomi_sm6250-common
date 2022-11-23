@@ -9,3 +9,7 @@ allow hal_thermal_default self:netlink_kobject_uevent_socket create_socket_perms
 hal_client_domain(hal_thermal_default, hal_power)
 
 get_prop(hal_thermal_default, vendor_thermal_prop)
+
+# Needed for reporting thermal stats event
+allow hal_thermal_default fwk_stats_service:service_manager find;
+binder_call(hal_thermal_default, servicemanager)
