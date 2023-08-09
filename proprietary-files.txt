@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from V13.0.2.0.SJWMIXM (CURTANAGlobal)
+# All unpinned blobs below are extracted from V14.0.4.0.SJWMIXM (CURTANAGlobal)
 
 # ACDB
 vendor/etc/acdbdata/IDP/atoll-wcd937x-snd-card/IDP_WCD937X_Bluetooth_cal.acdb
@@ -991,12 +991,30 @@ vendor/radio/qcril_database/upgrade/32_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql
-vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql
-vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/51_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/52_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/53_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/54_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/55_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/56_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/57_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/58_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/59_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/61_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/62_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/63_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/64_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/65_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/66_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/67_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/68_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/69_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/70_version_update_ecc_table.sql
+vendor/radio/qcril_database/upgrade/71_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
