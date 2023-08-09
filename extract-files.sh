@@ -66,6 +66,10 @@ function blob_fixup() {
         vendor/lib64/camera/components/com.qti.node.watermark.so)
             grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/lib64/hw/fingerprint.fpc.default.so)
+            # NOP out report_input_event()
+            "${SIGSCAN}" -p "30 00 00 90 11 3a 42 f9" -P "30 00 00 90 1f 20 03 d5" -f "${2}"
+            ;;
         system_ext/etc/init/wfdservice.rc)
             sed -i "/^service/! s/wfdservice$/wfdservice64/g" "${2}"
             ;;
