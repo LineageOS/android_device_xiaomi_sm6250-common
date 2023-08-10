@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e0a9cfd_fbc8cf1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2023-08-10T12:48:39Z",
+      "side": 1,
+      "message": "Enabled by default on devices with shipping API \u003e\u003d 30 (we are 29)",
+      "revId": "4e7e5d82eceae30a65c9bc2fb335f1c31582a6aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
