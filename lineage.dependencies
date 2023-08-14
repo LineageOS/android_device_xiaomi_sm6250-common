@@ -3,6 +3,7 @@
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
   },
+  {
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   },
