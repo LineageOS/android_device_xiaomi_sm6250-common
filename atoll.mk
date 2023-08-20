@@ -214,10 +214,12 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
+
+PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
-    hardware/qcom-caf/sm8150/media/conf_files/atoll/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     hardware/qcom-caf/sm8150/media/conf_files/atoll/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
