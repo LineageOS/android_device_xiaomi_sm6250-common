@@ -347,7 +347,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.sh \
-    init.qti.chg_policy.sh
+    init.qti.chg_policy.sh \
+    init.sensors_regen.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.power.rc \
