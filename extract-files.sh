@@ -75,7 +75,7 @@ function blob_fixup() {
             "${SIGSCAN}" -p "30 00 00 90 11 3a 42 f9" -P "30 00 00 90 1f 20 03 d5" -f "${2}"
             ;;
         vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so)
-            grep -q "libhidlbase-v32.so" "${2}" || "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+            sed -i "s|libhidlbase.so|v32hidlbase.so|g" "${2}"
             ;;
         system_ext/etc/init/wfdservice.rc)
             sed -i "/^service/! s/wfdservice$/wfdservice64/g" "${2}"
