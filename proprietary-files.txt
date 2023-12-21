@@ -563,6 +563,7 @@ vendor/firmware/a630_sqe.fw
 
 # GNSS
 vendor/app/CACertService/CACertService.apk
+vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/xtra-daemon
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
