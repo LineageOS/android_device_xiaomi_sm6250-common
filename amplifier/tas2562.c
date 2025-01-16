@@ -7,6 +7,7 @@
 #define LOG_TAG "amplifier_tas2562"
 #define LOG_NDEBUG 0
 
+#include <dlfcn.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -17,7 +18,6 @@
 #include <hardware/audio_amplifier.h>
 #include <hardware/hardware.h>
 
-#include "audio_hw.h"
 #include "platform.h"
 #include "platform_api.h"
 
@@ -54,6 +54,12 @@ typedef struct tas2562_amp {
     tas2562_profile_t profile;
     struct audio_device* adev;
     struct pcm* pcm;
+    typeof(enable_snd_device)* enable_snd_device;
+    typeof(enable_audio_route)* enable_audio_route;
+    typeof(disable_snd_device)* disable_snd_device;
+    typeof(disable_audio_route)* disable_audio_route;
+    typeof(platform_get_pcm_device_id)* platform_get_pcm_device_id;
+    typeof(get_usecase_from_list)* get_usecase_from_list;
 } tas2562_amp_t;
 
 static int tas2562_mixer_set_enum_by_string(struct mixer* mixer, const char* name,
@@ -164,8 +170,8 @@ static int tas2562_start_feedback(tas2562_amp_t* tas2562, uint32_t device) {
     list_init(&usecase->device_list);
     list_add_head(&adev->usecase_list, &usecase->list);
 
-    enable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
-    enable_audio_route(adev, usecase);
+    tas2562->enable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
+    tas2562->enable_audio_route(adev, usecase);
 
     profile = tas2562_profile_names[tas2562->profile];
     ALOGI("%s: Using profile %s", __func__, profile);
@@ -173,7 +179,7 @@ static int tas2562_start_feedback(tas2562_amp_t* tas2562, uint32_t device) {
 
     tas2562_mixer_set_enum_by_string(mixer, TAS2562_SMARTPA_ENABLE, "ENABLE");
 
-    pcm_id = platform_get_pcm_device_id(usecase->id, PCM_CAPTURE);
+    pcm_id = tas2562->platform_get_pcm_device_id(usecase->id, PCM_CAPTURE);
     if (pcm_id < 0) {
         ALOGE("%s: Invalid PCM device for usecase %d", __func__, usecase->id);
         rc = -ENODEV;
@@ -203,8 +209,8 @@ err_pcm_start:
     if (pcm) pcm_close(pcm);
 err_no_pcm:
     tas2562_mixer_set_enum_by_string(mixer, TAS2562_SMARTPA_ENABLE, "DISABLE");
-    disable_audio_route(adev, usecase);
-    disable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
+    tas2562->disable_audio_route(adev, usecase);
+    tas2562->disable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
     list_remove(&usecase->list);
     free(usecase);
 
@@ -228,11 +234,11 @@ static int tas2562_stop_feedback(tas2562_amp_t* tas2562, uint32_t device) {
 
     tas2562_mixer_set_enum_by_string(mixer, TAS2562_SMARTPA_ENABLE, "DISABLE");
 
-    disable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
+    tas2562->disable_snd_device(adev, SND_DEVICE_IN_CAPTURE_VI_FEEDBACK);
 
-    usecase = get_usecase_from_list(adev, USECASE_AUDIO_SPKR_CALIB_TX);
+    usecase = tas2562->get_usecase_from_list(adev, USECASE_AUDIO_SPKR_CALIB_TX);
     if (usecase) {
-        disable_audio_route(adev, usecase);
+        tas2562->disable_audio_route(adev, usecase);
         list_remove(&usecase->list);
         free(usecase);
     }
@@ -287,6 +293,25 @@ static int tas2562_module_open(const hw_module_t* module, const char* name, hw_d
     tas2562->amp_dev.set_feedback = tas2562_set_feedback;
 
     tas2562->profile = PROFILE_MUSIC;
+
+#define LOAD_AHAL_SYMBOL(symbol)                                          \
+    do {                                                                  \
+        tas2562->symbol = dlsym(RTLD_NEXT, #symbol);                      \
+        if (tas2562->symbol == NULL) {                                    \
+            ALOGW("%s: %s not found (%s)", __func__, #symbol, dlerror()); \
+            free(tas2562);                                                \
+            return -ENODEV;                                               \
+        }                                                                 \
+    } while (0)
+
+    LOAD_AHAL_SYMBOL(enable_snd_device);
+    LOAD_AHAL_SYMBOL(enable_audio_route);
+    LOAD_AHAL_SYMBOL(disable_snd_device);
+    LOAD_AHAL_SYMBOL(disable_audio_route);
+    LOAD_AHAL_SYMBOL(platform_get_pcm_device_id);
+    LOAD_AHAL_SYMBOL(get_usecase_from_list);
+
+#undef LOAD_AHAL_SYMBOL
 
     *device = (hw_device_t*)tas2562;
 
