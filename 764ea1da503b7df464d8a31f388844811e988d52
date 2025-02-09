@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13281295_0aa301f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-02-09T18:34:55Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/I197248d2710c879cd09292799756d431cd986338 needs to be merged",
+      "revId": "764ea1da503b7df464d8a31f388844811e988d52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
