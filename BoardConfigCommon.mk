@@ -63,7 +63,6 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB ?= //$(COMMON_PATH):init_xiaomi_atoll
-TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_atoll
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
