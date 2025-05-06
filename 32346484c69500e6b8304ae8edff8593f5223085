@@ -34,6 +34,24 @@
       "parentUuid": "5172be84_86820762",
       "revId": "32346484c69500e6b8304ae8edff8593f5223085",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79ef19b2_37f3e9a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-05-06T20:24:15Z",
+      "side": 1,
+      "message": "`miatoll` uses spidev.",
+      "parentUuid": "bb9f9d14_b46746ee",
+      "revId": "32346484c69500e6b8304ae8edff8593f5223085",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
