@@ -14,11 +14,3 @@ cc_library_static {
     export_include_dirs: ["include"],
     recovery_available: true,
 }
-
-cc_library_static {
-    name: "init_xiaomi_atoll",
-    srcs: ["init_xiaomi_atoll.cpp"],
-    whole_static_libs: ["libinit_xiaomi_atoll"],
-    include_dirs: ["system/core/init"],
-    recovery_available: true,
-}
