@@ -16,6 +16,24 @@
       "message": "I need a +v here",
       "revId": "3d12c005234a133f9639f7677cf66dba30a948b1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69a1060e_38e64575",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-05-30T08:17:57Z",
+      "side": 1,
+      "message": "Just triggered a build :D. i\u0027ll leave the vote soon.",
+      "parentUuid": "decc8e6a_fa267e27",
+      "revId": "3d12c005234a133f9639f7677cf66dba30a948b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
