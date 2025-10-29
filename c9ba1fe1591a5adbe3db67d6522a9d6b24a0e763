@@ -22,6 +22,23 @@
       },
       "revId": "c9ba1fe1591a5adbe3db67d6522a9d6b24a0e763",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66aa287d_b179d8ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33723
+      },
+      "writtenOn": "2025-10-29T11:04:56Z",
+      "side": 1,
+      "message": "The Change-Id in this review was incorrect.\nThe updated and correct change has been uploaded here:\nhttps://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm6250-common/+/458817\n\nAbandoning this one to avoid duplication and confusion.",
+      "revId": "c9ba1fe1591a5adbe3db67d6522a9d6b24a0e763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
