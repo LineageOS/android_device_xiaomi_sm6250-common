@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea38fd37_e50a7d80",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-10-29T10:23:01Z",
+      "side": 1,
+      "message": "Woops, wrong Change-Id, Correct one is I4e8be836e94d442b40c63a1ac7dade3c9d9c784c",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 2
+      },
+      "revId": "c9ba1fe1591a5adbe3db67d6522a9d6b24a0e763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
