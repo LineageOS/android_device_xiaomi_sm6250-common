@@ -182,3 +182,6 @@ on property:vendor.post_boot.parsed=1
 
 on property:ro.boot.multisim_config=*
     setprop persist.radio.multisim.config ${ro.boot.multisim_config}
+
+on property:persist.vendor.net.doxlat=false
+    setprop persist.vendor.net.doxlat true
