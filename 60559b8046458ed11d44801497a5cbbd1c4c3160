@@ -33,6 +33,24 @@
       "message": "Does it work on stock ROM?",
       "revId": "60559b8046458ed11d44801497a5cbbd1c4c3160",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "639f98f0_bfc21767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32856
+      },
+      "writtenOn": "2026-02-26T15:20:43Z",
+      "side": 1,
+      "message": "Yes, IPv4 works perfectly on stock ROM, and on custom ROM up to A13.\nThe issue was first noticed on A15 \u0026 the issue still exists in A16.",
+      "parentUuid": "52eb56d9_5c6ca42f",
+      "revId": "60559b8046458ed11d44801497a5cbbd1c4c3160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
