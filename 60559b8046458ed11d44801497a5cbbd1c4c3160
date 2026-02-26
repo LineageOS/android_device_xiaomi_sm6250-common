@@ -16,6 +16,23 @@
       "message": "or... let\u0027s hexedit that prop to have \"ro.\" prefix instead, and we set that prop before QCRIL starts? so that the prop will not be written later",
       "revId": "60559b8046458ed11d44801497a5cbbd1c4c3160",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52eb56d9_5c6ca42f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-02-26T14:24:16Z",
+      "side": 1,
+      "message": "Does it work on stock ROM?",
+      "revId": "60559b8046458ed11d44801497a5cbbd1c4c3160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
