@@ -124,10 +124,11 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := atoll
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+PROPS_PATH := $(COMMON_PATH)/configs/properties
+TARGET_ODM_PROP += $(PROPS_PATH)/odm.prop
+TARGET_PRODUCT_PROP += $(PROPS_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(PROPS_PATH)/system.prop
+TARGET_VENDOR_PROP += $(PROPS_PATH)/vendor.prop
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
