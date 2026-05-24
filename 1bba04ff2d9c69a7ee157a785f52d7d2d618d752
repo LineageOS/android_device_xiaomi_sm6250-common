@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b356c7d8_8fb768fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-24T14:50:41Z",
+      "side": 1,
+      "message": "drop the sign-off, we do that only on kernels",
+      "revId": "1bba04ff2d9c69a7ee157a785f52d7d2d618d752",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
