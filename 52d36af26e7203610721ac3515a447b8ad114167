@@ -16,6 +16,24 @@
       "message": "any particular reason?",
       "revId": "52d36af26e7203610721ac3515a447b8ad114167",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8897f1e_b0e9f3ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:53:04Z",
+      "side": 1,
+      "message": "Makes the build fail",
+      "parentUuid": "3c5b6713_e4c075ad",
+      "revId": "52d36af26e7203610721ac3515a447b8ad114167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
