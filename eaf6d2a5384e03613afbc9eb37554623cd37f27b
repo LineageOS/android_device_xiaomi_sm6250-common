@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0dcf91_84d6c4eb",
+        "filename": "atoll.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:38:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0466e689_80923548",
+      "revId": "eaf6d2a5384e03613afbc9eb37554623cd37f27b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6e3eb847_56a872a8",
@@ -48,6 +66,24 @@
       "writtenOn": "2026-05-24T14:31:30Z",
       "side": 1,
       "message": "`SM6250LineageSettingsProvider`",
+      "revId": "eaf6d2a5384e03613afbc9eb37554623cd37f27b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99233c5f_e98816c0",
+        "filename": "overlay-lineage/LineageSettingsProvider/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:38:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6e3eb847_56a872a8",
       "revId": "eaf6d2a5384e03613afbc9eb37554623cd37f27b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -69,6 +105,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3986ca90_4ece106f",
+        "filename": "overlay-lineage/LineageSettingsProvider/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:38:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42b8d1af_6dafd258",
+      "revId": "eaf6d2a5384e03613afbc9eb37554623cd37f27b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b9933baf_9e11f846",
@@ -82,6 +136,30 @@
       "writtenOn": "2026-05-24T14:31:30Z",
       "side": 1,
       "message": "```suggestion\n    \u003coverlay\n        android:isStatic\u003d\"true\"\n        android:priority\u003d\"100\"\n        android:targetPackage\u003d\"org.lineageos.lineagesettings\" /\u003e\n```",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 38
+      },
+      "revId": "eaf6d2a5384e03613afbc9eb37554623cd37f27b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08194dcb_90d97910",
+        "filename": "overlay-lineage/LineageSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:38:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9933baf_9e11f846",
       "range": {
         "startLine": 8,
         "startChar": 0,
