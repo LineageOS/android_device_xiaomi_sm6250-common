@@ -16,6 +16,24 @@
       "message": "squash it on Ia323bb8f66e3515bdf16ff3a14c919b8bd859eba",
       "revId": "937ab986e3e71c7b63397d14e3c256918cb5978a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a76ceec_6e7d411a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:43:28Z",
+      "side": 1,
+      "message": "I guess it would be worth to drop I584377c1eb266abb32e82c4a6756c417280393ec as well then ?",
+      "parentUuid": "8a12a1ae_dae771db",
+      "revId": "937ab986e3e71c7b63397d14e3c256918cb5978a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
