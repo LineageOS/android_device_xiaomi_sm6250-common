@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ad96adb_5fd95738",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-24T21:12:39Z",
+      "side": 1,
+      "message": "Have you tested WFD with this? It seems like some blobs might need to be kept at their old versions\nhttps://review.lineageos.org/q/Ic2a08519a2d9e9299d419b56479fa82ffc7ea664",
+      "revId": "f1411eca4eefe532496c03444a5a6ebab4d89fe4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
