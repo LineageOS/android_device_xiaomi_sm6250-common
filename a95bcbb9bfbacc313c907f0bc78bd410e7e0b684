@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "896b0e5f_b34ade27",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-24T14:23:30Z",
+      "side": 1,
+      "message": "```\n# dada: OS2.0.217.0.WOCMIXM (dada_global)\n```",
+      "revId": "a95bcbb9bfbacc313c907f0bc78bd410e7e0b684",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dbeb0f2_f7beba89",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1023,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-24T14:23:30Z",
+      "side": 1,
+      "message": "```suggestion\n# WiFi Display (system) - from dada```",
+      "revId": "a95bcbb9bfbacc313c907f0bc78bd410e7e0b684",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
