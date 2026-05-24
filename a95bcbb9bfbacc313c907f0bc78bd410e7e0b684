@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b5cd3e6_4470067e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:29:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "896b0e5f_b34ade27",
+      "revId": "a95bcbb9bfbacc313c907f0bc78bd410e7e0b684",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5dbeb0f2_f7beba89",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-05-24T14:23:30Z",
       "side": 1,
       "message": "```suggestion\n# WiFi Display (system) - from dada```",
+      "revId": "a95bcbb9bfbacc313c907f0bc78bd410e7e0b684",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "702e30ca_a03bd3ec",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1023,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:29:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5dbeb0f2_f7beba89",
       "revId": "a95bcbb9bfbacc313c907f0bc78bd410e7e0b684",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
