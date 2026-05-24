@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "50eb736b_d391e3a0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-05-24T21:25:27Z",
+      "side": 1,
+      "message": "DCO is not required, it\u0027s a Linux Foundation thing",
+      "revId": "52d36af26e7203610721ac3515a447b8ad114167",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "3c5b6713_e4c075ad",
