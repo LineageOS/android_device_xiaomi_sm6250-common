@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5541c9a_ec30fa73",
+        "filename": "atoll.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:57:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72d39d60_97b748ef",
+      "revId": "59c7d13ef0cd809e29d3cebdca900caccc5771ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "caee26ad_f9599d52",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-05-24T14:54:58Z",
       "side": 1,
       "message": "\"No newline at end of right file.\"",
+      "revId": "59c7d13ef0cd809e29d3cebdca900caccc5771ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "223c6e29_3f1dac03",
+        "filename": "overlay-lineage/SM6250LineageSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:57:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "caee26ad_f9599d52",
       "revId": "59c7d13ef0cd809e29d3cebdca900caccc5771ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
