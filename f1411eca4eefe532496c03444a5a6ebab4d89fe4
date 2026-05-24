@@ -16,6 +16,24 @@
       "message": "Have you tested WFD with this? It seems like some blobs might need to be kept at their old versions\nhttps://review.lineageos.org/q/Ic2a08519a2d9e9299d419b56479fa82ffc7ea664",
       "revId": "f1411eca4eefe532496c03444a5a6ebab4d89fe4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e94940c_322f691b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T22:44:21Z",
+      "side": 1,
+      "message": "As you figured, WFD doesn\u0027t work. I didn\u0027t test further than open it and see it doesn\u0027t crash.\nIt turns out the device doesn\u0027t even \"see\" my smart TV when an other device I have can.\n\nI tried moving libmmosal and libmmparse_lite (both lib and lib64) back to stock libs, but it still doesnt work unfortunately.\n\nWill need further investigations, thanks for the heads up.",
+      "parentUuid": "9ad96adb_5fd95738",
+      "revId": "f1411eca4eefe532496c03444a5a6ebab4d89fe4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
