@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "24248658_89566d4a",
+        "filename": "atoll.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:53:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "447ed446_11b064e4",
+      "revId": "a41468c53ec1f33fcb46cc3be7ffc9a793e22822",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a2132feb_83baa244",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7528d3ee_678b1466",
+        "filename": "atoll.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:53:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a2132feb_83baa244",
+      "revId": "a41468c53ec1f33fcb46cc3be7ffc9a793e22822",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b2cec709_d09ff4a5",
@@ -48,6 +84,30 @@
       "writtenOn": "2026-05-24T14:48:58Z",
       "side": 1,
       "message": "```suggestion\n\u003c?xml version\u003d\"1.0\" encoding\u003d\"utf-8\"?\u003e\n\u003c!--\n     SPDX-FileCopyrightText: The LineageOS Project\n     SPDX-License-Identifier: Apache-2.0\n--\u003e\n\u003cmanifest xmlns:android\u003d\"http://schemas.android.com/apk/res/android\"\n    package\u003d\"lineageos.settingsprovider.overlay.common\"\u003e\n \n    \u003coverlay\n          android:isStatic\u003d\"true\"\n          android:priority\u003d\"100\"\n          android:targetPackage\u003d\"org.lineageos.lineagesettings\" /\u003e\n\u003c/manifest\u003e\n```",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 1
+      },
+      "revId": "a41468c53ec1f33fcb46cc3be7ffc9a793e22822",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1204210_40099d6b",
+        "filename": "overlay-lineage/SM6250LineageSettingsProvider/AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:53:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2cec709_d09ff4a5",
       "range": {
         "startLine": 1,
         "startChar": 0,
