@@ -16,6 +16,24 @@
       "message": "Original commit doesn\u0027t have the sign-off",
       "revId": "daba51faec80589f41061fde2e4d4e0c5de57634",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1cddc54_c1470242",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:54:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d334fac_fb2f4124",
+      "revId": "daba51faec80589f41061fde2e4d4e0c5de57634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
