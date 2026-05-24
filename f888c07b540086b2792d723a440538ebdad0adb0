@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c24b042_5e6babe7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-24T14:08:24Z",
+      "side": 1,
+      "message": "just for the sake of not having files of a similar type laying everywhere. I find it cleaner to just clean it and put the files in a folder.",
+      "revId": "f888c07b540086b2792d723a440538ebdad0adb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
