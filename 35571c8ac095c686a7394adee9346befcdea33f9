@@ -16,6 +16,24 @@
       "message": "Authorship?\nhttps://review.lineageos.org/q/Iba9831ce2bccc429056a219b542fc17621217ae8",
       "revId": "35571c8ac095c686a7394adee9346befcdea33f9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ba82fee_3f910a8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-05-25T07:41:19Z",
+      "side": 1,
+      "message": "Done, abandoning this patch in favor of this one then https://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm6250-common/+/487092",
+      "parentUuid": "3b72dcfe_a742ce5f",
+      "revId": "35571c8ac095c686a7394adee9346befcdea33f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
