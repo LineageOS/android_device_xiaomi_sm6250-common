@@ -84,6 +84,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
+    'vendor/lib64/libril-qc-hal-qmi.so': blob_fixup()
+        .binary_regex_replace(b'persist.vendor.net.doxlat', b'ro.vendor.net.doxlat\x00\x00\x00\x00\x00'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
